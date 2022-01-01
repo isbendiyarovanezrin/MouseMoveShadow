@@ -24,6 +24,6 @@ body {
 
 .text {
   text-transform: uppercase;
-  font: 800 15rem "Source Serif Pro", serif;
+  font: 800 11rem "Source Serif Pro", serif;
   text-shadow: 1rem 1rem 0 #ff0000;
 }
