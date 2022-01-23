@@ -1,5 +1,9 @@
 <div align="center">
-  <a href="https://isbendiyarovanezrin.github.io/MouseMoveShadow">
-    <img title="Click me!" src="https://i.postimg.cc/T2HdDbPF/shadow.gif" />
-  </a>
+
+You can view the project [here](https://isbendiyarovanezrin.github.io/MouseMoveShadow "Click me!👥").
+
+#### Preview
+
+![Mouse Move Shadow](https://i.postimg.cc/T2HdDbPF/shadow.gif)
+
 </div>
