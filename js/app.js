@@ -19,9 +19,9 @@ function shadow(e) {
   const yWalk = Math.round((y / height) * walk * 2 - walk);
 
   text.style.textShadow = `
-  ${xWalk}rem ${yWalk}rem 0 var(--yellow),
-  ${xWalk * -1}rem ${yWalk}rem var(--purple),
-  ${xWalk}rem ${yWalk * -1}rem 0 var(--blue),
-  ${xWalk * -1}rem ${yWalk * -1}rem var(--green)
+  ${xWalk}rem ${yWalk}rem 0 #FFFF00,
+  ${xWalk * -1}rem ${yWalk}rem #9932CC,
+  ${xWalk}rem ${yWalk * -1}rem 0 #3862e2,
+  ${xWalk * -1}rem ${yWalk * -1}rem #00FF00
   `;
 }
