@@ -76,26 +76,32 @@ svg {
   background-color: var(--selection-bg-clr);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1090px) {
   html {
     font-size: 0.8px;
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 870px) {
   html {
     font-size: 0.6px;
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 660px) {
   html {
     font-size: 0.4px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   html {
     font-size: 0.3px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 0.2px;
   }
 }

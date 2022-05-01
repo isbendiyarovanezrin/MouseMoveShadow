@@ -2,6 +2,7 @@
 
 const hero = document.querySelector(".hero");
 const text = hero.querySelector(".text");
+const mq = window.matchMedia("(max-width: 1007px)");
 let walk = 200; // 200px
 
 hero.addEventListener("mousemove", addShadow);
@@ -39,7 +40,12 @@ function removeOutline() {
 }
 
 function setMaxLength(e) {
-  if (text.textContent.length === 6 && e.key != "Backspace") {
+  if (text.textContent.length === 7 && e.key != "Backspace") {
     e.preventDefault();
   }
+}
+
+if (mq.matches) {
+  text.removeAttribute("contenteditable");
+  text.removeEventListener("click", addOutline);
 }
